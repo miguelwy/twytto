@@ -1,5 +1,5 @@
 # twytto
-Data engineering project for crypto currency analysis based on tweets. <br />
+Data engineering project for crypto currency analysis using twitter API. <br />
 
 For this project to work you'll have to configure the following: <br />
     -> Zookeeper running on port 2181 <br />

@@ -17,7 +17,7 @@ class MaxStream(tweepy.Stream):
             return False
 
     def start(self):
-        self.stream.filter(track=["crypto"])
+        self.stream.filter(track=["cryptocurrency","bitcoin",'crypto','btc'])
 
 if __name__ == '__main__':
     

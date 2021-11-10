@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/python-3.9.5-green)
+![](https://img.shields.io/badge/zookeeper-3.7.0-green)
+![](https://img.shields.io/badge/apache--kafka-2.4.1-green)
 # Twyto
 ## Big Data Real-time Crypto Analysis
 **Data engineering project for crypto currency analysis using twitter API.** <br />

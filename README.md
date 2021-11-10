@@ -30,3 +30,11 @@ In this part, a kafka consumer listens to the specified kafka topic and inserts 
 The libraries used for this section were: <br />
     - **pymongo**: to easily work with mongodb <br />
     - **kafka-python**: to create the kafka consumer and listen to the specified topic. <br />
+    
+### Running <br />
+
+- Run zookeeper server
+- Run kafka cluster
+- Inside "data-consumer" folder run "consumer.py"
+- Inside "data-stream" folder run "producer.py"
+

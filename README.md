@@ -8,11 +8,12 @@
 ![alt text](images/fluxograma.png)
 
 For this project to work you'll have to configure the following: <br />
-    - **Zookeeper** running on port 2181. <br />
-    - **Apache Kafka** running on port 9092. <br />
-    - Create topic **"crypto"** on apache kafka's cluster. <br />
-    - **MongoDb** instance running on port 27017 <br />
+    - **Zookeeper** <br />
+    - **Apache Kafka**<br />
+    - **MongoDb**<br />
     - **Twitter developer** account (API_KEY, API_SECRET_KEY, ACCESS_TOKEN, ACCESS_TOKEN_SECRET) <br />
+
+You can specify the ports, servers and other configurations using the **config.py** file. Please note that all parameters are mandatory for this project to work. <br />
 
 ### Data Streaming <br />
 
@@ -20,7 +21,7 @@ The data is consumed from twitter "tweets" using the twitter API. The code can b
 <br />
 The libraries used for this section were: <br />
     - **tweepy**: to easily consume data stream from twitter's API. <br />
-    - **kafka-python**: to create a kafka producer and send the data to "crypto" topic. <br />
+    - **kafka-python**: to create a kafka producer and send the data to the specified kafka topic. <br />
     
 ### Data Consuming and Persistency <br />
 

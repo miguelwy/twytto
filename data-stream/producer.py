@@ -17,11 +17,11 @@ class MaxStream(tweepy.Stream):
             return False
 
     def start(self):
-        self.stream.filter(track=["cryptocurrency","bitcoin",'crypto','btc'])
+        self.filter(track=["bitcoin"],filter_level='low')
 
 if __name__ == '__main__':
     
     producer = KafkaProducer(bootstrap_servers='localhost:9092')
 
     stream = MaxStream( API_KEY, API_SECRET_KEY, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-    stream.sample()
+    stream.start()

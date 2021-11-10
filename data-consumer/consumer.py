@@ -12,7 +12,8 @@ if __name__ == '__main__':
     client = MongoClient('localhost:27017')
     collection = client.twytto.crypto
 
-    for message in consumer:
-        message = message.value.decode('utf-8')
-        collection.insert_one(loads(message))
+    for message in consumer: 
+
+        message = message.value.decode('utf-8') 
+        collection.insert_one(loads(message)) 
         print('{} added to {}'.format(message, collection))

@@ -2,6 +2,8 @@
 ## Big Data Real-time Crypto Analysis
 **Data engineering project for crypto currency analysis using twitter API.** <br />
 
+![alt text](images/fluxo.png)
+
 For this project to work you'll have to configure the following: <br />
     - **Zookeeper** running on port 2181. <br />
     - **Apache Kafka** running on port 9092. <br />

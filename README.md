@@ -25,8 +25,8 @@ The libraries used for this section were: <br />
     
 ### Data Consuming and Persistency <br />
 
-In this part, a kafka consumer listens to the "crypto" topic and inserts all messages into a collection inside MongoDb instance. The code can be found on "consumer.py" file. <br />
+In this part, a kafka consumer listens to the specified kafka topic and inserts all messages into a collection inside MongoDb instance. The code can be found on "consumer.py" file. <br />
 <br />
 The libraries used for this section were: <br />
     - **pymongo**: to easily work with mongodb <br />
-    - **kafka-python**: to create the kafka consumer and listen to "crypto" topic. <br />
+    - **kafka-python**: to create the kafka consumer and listen to the specified topic. <br />

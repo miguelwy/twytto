@@ -1,4 +1,4 @@
-# Twytto
+# Twyto
 ## Big Data Real-time Crypto Analysis
 **Data engineering project for crypto currency analysis using twitter API.** <br />
 
